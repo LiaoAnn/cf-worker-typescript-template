@@ -21,6 +21,17 @@ Make sure you have the following installed:
 - [pnpm](https://pnpm.io/) (v8 or higher)
 - [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install/)
 
+And create a docker volume for pnpm:
+
+```bash
+docker volume create \
+  --driver local \
+  --opt type=none \
+  --opt device=$PNPM_HOME/store \
+  --opt o=bind \
+  pnpm_store
+```
+
 ### Installation
 
 1. Clone this repository:
