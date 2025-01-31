@@ -41,13 +41,15 @@ docker volume create \
    cd cf-worker-typescript-template
    ```
 
-2. Install dependencies:
+2. Edit the `wrangler.toml` file and replace the `name` with your own.
+
+3. Install dependencies:
 
    ```bash
    pnpm install
    ```
 
-3. Start the development server:
+4. Start the development server:
 
    ```bash
    pnpm dev
