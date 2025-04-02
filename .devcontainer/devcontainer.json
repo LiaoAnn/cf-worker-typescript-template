@@ -1,6 +1,9 @@
 {
   "name": "cf-worker-typescript-template",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/cloudflare-wrangler:1": {}
+  },
   "mounts": [
     "source=pnpm_store,target=/home/node/.pnpm-store,type=volume"
   ],
@@ -27,6 +30,7 @@
         "editor.tabSize": 2,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.codeActionsOnSave": {
           "source.fixAll": "explicit"
         },
@@ -36,8 +40,11 @@
         "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
         "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
         "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "javascript.suggest.autoImports": false
+        "javascript.suggest.autoImports": true,
+        "javascript.preferences.importModuleSpecifier": "non-relative",
+        "typescript.suggest.autoImports": true,
+        "typescript.preferences.importModuleSpecifier": "non-relative",
+        "workbench.editor.enablePreview": true,
       }
     }
   },
