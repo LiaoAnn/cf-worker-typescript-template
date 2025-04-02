@@ -14,4 +14,7 @@
     "jsx": "preserve",
     "jsxImportSource": "hono/jsx"
   },
+  "include": [
+    "worker-configuration.d.ts"
+  ]
 }
