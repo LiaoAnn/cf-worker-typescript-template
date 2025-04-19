@@ -52,8 +52,10 @@
   "forwardPorts": [
     8787
   ],
+  // Use 'onCreateCommand' to run commands as root after the container is created.
+  "onCreateCommand": "apt-get update && apt-get install -y socat",
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "pnpm config set store-dir ~/.pnpm-store",
+  "postCreateCommand": "pnpm config set store-dir ~/.pnpm-store && chmod +x wrangler_login.sh",
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
 }
