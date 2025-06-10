@@ -24,10 +24,16 @@ Make sure you have the following installed:
 And create a docker volume for pnpm:
 
 ```bash
+pnpm store path
+# it will be something like /home/user/.local/share/pnpm/store/v10
+
+# set the PNPM_HOME environment variable
+export PNPM_HOME=/home/user/.local/share/pnpm/store
+
 docker volume create \
   --driver local \
   --opt type=none \
-  --opt device=$PNPM_HOME/store \
+  --opt device=$PNPM_HOME \
   --opt o=bind \
   pnpm_store
 ```
