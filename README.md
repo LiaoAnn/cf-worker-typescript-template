@@ -6,8 +6,7 @@ A template for developing Cloudflare Workers using TypeScript and `pnpm`.
 
 - **TypeScript**: Write strongly-typed, modern JavaScript.
 - **Hono**: A lightweight, high-performance web framework.
-- **ESLint**: Linting for better code quality.
-- **Prettier**: Consistent code formatting.
+- **Biome**: Ultra-fast linting and formatting (replaces ESLint + Prettier).
 - **Wrangler**: Simplified deployment and development with Cloudflare Workers.
 - **pnpm**: Fast and efficient package manager.
 
