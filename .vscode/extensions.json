@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "streetsidesoftware.code-spell-checker",
@@ -8,6 +7,6 @@
     "oderwat.indent-rainbow",
     "bradlc.vscode-tailwindcss",
     "wayou.vscode-todo-highlight",
-    "esbenp.prettier-vscode",
+    "biomejs.biome",
   ]
 }

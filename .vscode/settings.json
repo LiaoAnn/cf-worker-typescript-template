@@ -14,6 +14,6 @@
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
   "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "javascript.suggest.autoImports": false
 }

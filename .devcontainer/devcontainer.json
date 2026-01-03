@@ -23,7 +23,7 @@
         "oderwat.indent-rainbow",
         "bradlc.vscode-tailwindcss",
         "wayou.vscode-todo-highlight",
-        "esbenp.prettier-vscode",
+        "biomejs.biome"
       ],
       "settings": {
         "editor.bracketPairColorization.enabled": true,
@@ -32,7 +32,7 @@
         "editor.tabSize": 2,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "biomejs.biome",
         "editor.codeActionsOnSave": {
           "source.fixAll": "explicit"
         },
