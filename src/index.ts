@@ -5,4 +5,4 @@ const app = new Hono<{ Bindings: CloudflareBindings }>();
 
 app.route('/ping', ping);
 
-export default app
+export default app;
