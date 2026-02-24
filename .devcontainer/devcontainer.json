@@ -15,7 +15,6 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "dbaeumer.vscode-eslint",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
         "streetsidesoftware.code-spell-checker",
@@ -36,16 +35,11 @@
         "editor.codeActionsOnSave": {
           "source.fixAll": "explicit"
         },
-        "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-        "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
-        "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
-        "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-        "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
-        "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-        "javascript.suggest.autoImports": true,
-        "javascript.preferences.importModuleSpecifier": "non-relative",
-        "typescript.suggest.autoImports": true,
-        "typescript.preferences.importModuleSpecifier": "non-relative",
+        "js/ts.format.insertSpaceBeforeFunctionParenthesis": true,
+        "js/ts.format.placeOpenBraceOnNewLineForControlBlocks": false,
+        "js/ts.format.placeOpenBraceOnNewLineForFunctions": false,
+        "js/ts.suggest.autoImports": true,
+        "js/ts.preferences.importModuleSpecifier": "non-relative",
         "workbench.editor.enablePreview": true,
       }
     }
