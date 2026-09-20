@@ -1,8 +1,5 @@
-import { Hono } from 'hono';
-import ping from './routes/ping';
-
-const app = new Hono<{ Bindings: Env }>();
-
-app.route('/ping', ping);
-
-export default app;
+export default {
+  fetch() {
+    return new Response('Hello, World!');
+  },
+} satisfies ExportedHandler<Env>;
