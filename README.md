@@ -10,6 +10,7 @@ web application.
 - A native Worker entry point in `src/index.ts` that returns `Hello, World!`.
 - Wrangler configuration for local development, deployment, and binding types.
 - Biome for linting and formatting.
+- Knip for finding unused files, exports, and dependencies.
 - A Node.js 24 Dev Container with pnpm and a persistent package store.
 
 No application framework is installed. Add the framework, dependencies, and
@@ -41,6 +42,7 @@ After changing container configuration, select **Rebuild Container**.
 | --- | --- |
 | `pnpm dev` | Start the local Worker |
 | `pnpm lint` | Check source formatting and lint rules |
+| `pnpm knip` | Find unused files, exports, and dependencies |
 | `pnpm format` | Format source files |
 | `pnpm check` | Apply source formatting and lint fixes |
 | `pnpm cf-typegen` | Regenerate Worker types after changing bindings |

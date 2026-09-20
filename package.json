@@ -5,6 +5,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
     "lint": "biome check src",
+    "knip": "knip",
     "format": "biome format --write src",
     "check": "biome check --write src",
     "cf-typegen": "wrangler types"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.14",
     "@types/node": "^24.13.6",
+    "knip": "^6.37.0",
     "typescript": "^7.0.2",
     "wrangler": "^4.135.0"
   }
